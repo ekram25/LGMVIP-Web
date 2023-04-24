@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.body {
+
+    position: relative;
+
+    background: rgb(1, 67, 110);
+    padding: 21px;
+
+}
+
+.container {
+    position: relative;
+    margin-top: 0;
+    background: rgb(2, 197, 139);
+    border-radius: 16px;
+
+    padding: 20px;
+    margin: 301px auto;
+    max-width: 501px;
+
+
+}
+
+.conatiner .h1 {
+
+    font-size: 46px;
+    color: rgb(209, 22, 22);
+
+}
+
+.container .input {
+    display: flex;
+    height: 51px;
+    width: 100%;
+    margin: 26px 1px;
+}
+
+.input input {
+    height: 100%;
+    width: 100%;
+    border-radius: 11px;
+    border: 2px solid rgb(189, 5, 5);
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 26px;
+    outLine: none;
+    transition: all .5s ease;
+
+
+}
+
+
+
+.input button :hover {
+    background: red;
+
+}
+
+.input button .active {
+    opacity: .5;
+    pointer-events: auto;
+}
+
+
+
+
+.input input :focus {
+    border-color: black;
+
+
+}
+
+.container .footer {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(189, 23, 1);
+    font-size: 26px;
+    width: 100%;
+    margin-top: 31px;
+
+}
+
+.container .task {
+    max-height: 251px;
+    overflow-y: auto;
+
+}
+
+.tasks li {
+    position: relative;
+    list-style: none;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 11px;
+    padding: 0 18px;
+    height: 46px;
+    line-height: 46px;
+    cursor: default;
+    overflow: hidden;
+    font-size: 21px;
+}
+
+.tasks li .icon {
+    height: 100%;
+    width: 100%;
+    margin-left: 11px;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 190, 190);
+    padding: 6px;
+    font-size: 20px;
+    outLine: none;
+    transition: all 0.5s ease;
+
+}
+
+.tasks li:hover .icon {
+    right: 2px;
+}
